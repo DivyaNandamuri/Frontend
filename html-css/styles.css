@@ -1,0 +1,31 @@
+body {
+    background-color:rgb(207, 208, 213); 
+}
+
+h1 {
+    color:rgb(14, 55, 125);
+    background-color:rgb(178, 234, 219);
+    text-align: center;
+}
+
+
+nav{
+   padding: 20px;
+    color: rgb(92, 128, 0);
+}
+
+nav ul {
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav li {
+    width:25%;
+    display: inline-block;
+    font-size: 24px;
+}
+
+a[href$=".asp"]{
+    color: rgb(231, 56, 12);
+}
