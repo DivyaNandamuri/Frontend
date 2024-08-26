@@ -4,7 +4,7 @@ const fs = require('fs');
 function divyaReadFile() { 
     console.log("inside divya Read File")
     return new Promise(function(resolve) {
-        fs.readFile("a.txt", "utf-8", function(err, data) {
+        fs.readFile("Frontend/a.txt", "utf-8", function(err, data) {
             resolve(data);
             console.log("after resolve");
         });
